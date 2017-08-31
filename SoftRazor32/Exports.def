@@ -1,0 +1,5 @@
+LIBRARY "srdbg"
+
+EXPORTS
+	LaunchDebugger						@1
+	TerminationDebugger					@2

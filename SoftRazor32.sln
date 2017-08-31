@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftRazor32", "SoftRazor32\SoftRazor32.vcxproj", "{B03823A6-8C92-41E8-B9BE-844680DE225B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftRazorLoader", "SoftRazorLoader\SoftRazorLoader.vcxproj", "{3CB1E912-1C5F-405D-9517-D040259E244E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B03823A6-8C92-41E8-B9BE-844680DE225B} = {B03823A6-8C92-41E8-B9BE-844680DE225B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		VB_Debug|Win32 = VB_Debug|Win32
+		VB_NDebug|Win32 = VB_NDebug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.Debug|Win32.Build.0 = Debug|Win32
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.Release|Win32.ActiveCfg = Release|Win32
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.Release|Win32.Build.0 = Release|Win32
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.VB_Debug|Win32.ActiveCfg = VB_Debug|Win32
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.VB_Debug|Win32.Build.0 = VB_Debug|Win32
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.VB_NDebug|Win32.ActiveCfg = VB_NDebug|Win32
+		{B03823A6-8C92-41E8-B9BE-844680DE225B}.VB_NDebug|Win32.Build.0 = VB_NDebug|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.Debug|Win32.Build.0 = Debug|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.Release|Win32.ActiveCfg = Release|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.Release|Win32.Build.0 = Release|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.VB_Debug|Win32.ActiveCfg = Debug|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.VB_Debug|Win32.Build.0 = Debug|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.VB_NDebug|Win32.ActiveCfg = VB_NDebug|Win32
+		{3CB1E912-1C5F-405D-9517-D040259E244E}.VB_NDebug|Win32.Build.0 = VB_NDebug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
